@@ -44,9 +44,10 @@ def hangman():
         else:
             print('Você digitou um caracter inválido. Por favor, tente novamente.')
     
+    print('---------------- FIM DE JOGO!!! ----------------')
     if lives == 0:
         print('Sinto muito, você morreu D: \nA palavra era ', word)
     else:
-        print(f"Você advinhou a palavra, {word}!!!")
+        print(f"Você advinhou a palavra: {word}!!!")
 
 hangman()
